@@ -16,7 +16,7 @@ class Pokedesk extends Component{
             
                 <div className="Pokedesk">
                     <div>
-                        <span>Total Experience: {this.props.exp}</span>
+                        <span className ="Pokedesk-exp">Total Experience: {this.props.exp}</span>
                         <span>{title}</span>
                     </div>
                  

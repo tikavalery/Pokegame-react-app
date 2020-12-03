@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Pokedesk from "./Pokedesk";
+import "./Pokegame.css"
 
 
 class Pokegame extends Component{
@@ -28,8 +29,8 @@ class Pokegame extends Component{
         let exp2 = hand2.reduce((exp,pokemon) => exp + pokemon.base_experience,0)
 
         return(
-            <div>
-                <h2>Pokegame</h2>
+            <div className ="Pokegame">
+                <h2 className ="Pokegame-title">Pokegame</h2>
                 <Pokedesk pokemon={hand1} exp={exp1} isWinner={exp1> exp2} />
                 <Pokedesk pokemon={hand2} exp={ exp2} isWinner={exp2> exp1} />
             </div >

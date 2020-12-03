@@ -1,10 +1,12 @@
 .Pokedesk{
     text-align: center;
+    margin-top: 2rem;
 }
 .Pokedesk-cards {
     display:flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-top: 1rem;
 
 }
 
@@ -15,4 +17,8 @@
 
 .Pokedesk-loser{
     color: red;
+}
+
+.Pokedesk-exp{
+   margin-right: 3rem; 
 }
